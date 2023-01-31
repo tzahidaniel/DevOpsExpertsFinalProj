@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                dir
+                echo $SHELL
                 echo "Hello"
             }
         }
